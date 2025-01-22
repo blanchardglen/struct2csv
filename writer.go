@@ -155,3 +155,7 @@ func (w *Writer) SetBase(i int) {
 func (w *Writer) ColNames() []string {
 	return w.e.ColNames()
 }
+
+func (w *Writer) SetHandlerTag(handler string) {
+	w.e.SetHandlerTag(handler)
+}
